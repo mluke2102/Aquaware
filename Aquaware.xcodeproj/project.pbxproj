@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90696432361F89E0022BA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90696422361F89E0022BA81 /* AppDelegate.swift */; };
+		C90696452361F89E0022BA81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90696442361F89E0022BA81 /* SceneDelegate.swift */; };
+		C90696472361F89E0022BA81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90696462361F89E0022BA81 /* ViewController.swift */; };
+		C906964A2361F89E0022BA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90696482361F89E0022BA81 /* Main.storyboard */; };
+		C906964C2361F8A00022BA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C906964B2361F8A00022BA81 /* Assets.xcassets */; };
+		C906964F2361F8A00022BA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C906964D2361F8A00022BA81 /* LaunchScreen.storyboard */; };
+		C90696542361F8A00022BA81 /* Aquaware WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C90696532361F8A00022BA81 /* Aquaware WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C906965A2361F8A00022BA81 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90696582361F8A00022BA81 /* Interface.storyboard */; };
+		C906965C2361F8A10022BA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C906965B2361F8A10022BA81 /* Assets.xcassets */; };
+		C90696632361F8A10022BA81 /* Aquaware WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C90696622361F8A10022BA81 /* Aquaware WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C90696682361F8A10022BA81 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90696672361F8A10022BA81 /* InterfaceController.swift */; };
+		C906966A2361F8A10022BA81 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90696692361F8A10022BA81 /* ExtensionDelegate.swift */; };
+		C906966C2361F8A10022BA81 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906966B2361F8A10022BA81 /* NotificationController.swift */; };
+		C906966E2361F8A10022BA81 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906966D2361F8A10022BA81 /* ComplicationController.swift */; };
+		C90696702361F8A20022BA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C906966F2361F8A20022BA81 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C90696552361F8A00022BA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90696372361F89E0022BA81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90696522361F8A00022BA81;
+			remoteInfo = "Aquaware WatchKit App";
+		};
+		C90696642361F8A10022BA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90696372361F89E0022BA81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90696612361F8A10022BA81;
+			remoteInfo = "Aquaware WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C90696782361F8A20022BA81 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C90696632361F8A10022BA81 /* Aquaware WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C906967C2361F8A20022BA81 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C90696542361F8A00022BA81 /* Aquaware WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C906963F2361F89E0022BA81 /* Aquaware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquaware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90696422361F89E0022BA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C90696442361F89E0022BA81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C90696462361F89E0022BA81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C90696492361F89E0022BA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C906964B2361F8A00022BA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C906964E2361F8A00022BA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C90696502361F8A00022BA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90696532361F8A00022BA81 /* Aquaware WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aquaware WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90696592361F8A00022BA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C906965B2361F8A10022BA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C906965D2361F8A10022BA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90696622361F8A10022BA81 /* Aquaware WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Aquaware WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90696672361F8A10022BA81 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C90696692361F8A10022BA81 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C906966B2361F8A10022BA81 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C906966D2361F8A10022BA81 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C906966F2361F8A20022BA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C90696712361F8A20022BA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90696722361F8A20022BA81 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C906963C2361F89E0022BA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C906965F2361F8A10022BA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C90696362361F89E0022BA81 = {
+			isa = PBXGroup;
+			children = (
+				C90696412361F89E0022BA81 /* Aquaware */,
+				C90696572361F8A00022BA81 /* Aquaware WatchKit App */,
+				C90696662361F8A10022BA81 /* Aquaware WatchKit Extension */,
+				C90696402361F89E0022BA81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C90696402361F89E0022BA81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C906963F2361F89E0022BA81 /* Aquaware.app */,
+				C90696532361F8A00022BA81 /* Aquaware WatchKit App.app */,
+				C90696622361F8A10022BA81 /* Aquaware WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90696412361F89E0022BA81 /* Aquaware */ = {
+			isa = PBXGroup;
+			children = (
+				C90696422361F89E0022BA81 /* AppDelegate.swift */,
+				C90696442361F89E0022BA81 /* SceneDelegate.swift */,
+				C90696462361F89E0022BA81 /* ViewController.swift */,
+				C90696482361F89E0022BA81 /* Main.storyboard */,
+				C906964B2361F8A00022BA81 /* Assets.xcassets */,
+				C906964D2361F8A00022BA81 /* LaunchScreen.storyboard */,
+				C90696502361F8A00022BA81 /* Info.plist */,
+			);
+			path = Aquaware;
+			sourceTree = "<group>";
+		};
+		C90696572361F8A00022BA81 /* Aquaware WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C90696582361F8A00022BA81 /* Interface.storyboard */,
+				C906965B2361F8A10022BA81 /* Assets.xcassets */,
+				C906965D2361F8A10022BA81 /* Info.plist */,
+			);
+			path = "Aquaware WatchKit App";
+			sourceTree = "<group>";
+		};
+		C90696662361F8A10022BA81 /* Aquaware WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C90696672361F8A10022BA81 /* InterfaceController.swift */,
+				C90696692361F8A10022BA81 /* ExtensionDelegate.swift */,
+				C906966B2361F8A10022BA81 /* NotificationController.swift */,
+				C906966D2361F8A10022BA81 /* ComplicationController.swift */,
+				C906966F2361F8A20022BA81 /* Assets.xcassets */,
+				C90696712361F8A20022BA81 /* Info.plist */,
+				C90696722361F8A20022BA81 /* PushNotificationPayload.apns */,
+			);
+			path = "Aquaware WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C906963E2361F89E0022BA81 /* Aquaware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C906967D2361F8A20022BA81 /* Build configuration list for PBXNativeTarget "Aquaware" */;
+			buildPhases = (
+				C906963B2361F89E0022BA81 /* Sources */,
+				C906963C2361F89E0022BA81 /* Frameworks */,
+				C906963D2361F89E0022BA81 /* Resources */,
+				C906967C2361F8A20022BA81 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90696562361F8A00022BA81 /* PBXTargetDependency */,
+			);
+			name = Aquaware;
+			productName = Aquaware;
+			productReference = C906963F2361F89E0022BA81 /* Aquaware.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C90696522361F8A00022BA81 /* Aquaware WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90696792361F8A20022BA81 /* Build configuration list for PBXNativeTarget "Aquaware WatchKit App" */;
+			buildPhases = (
+				C90696512361F8A00022BA81 /* Resources */,
+				C90696782361F8A20022BA81 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90696652361F8A10022BA81 /* PBXTargetDependency */,
+			);
+			name = "Aquaware WatchKit App";
+			productName = "Aquaware WatchKit App";
+			productReference = C90696532361F8A00022BA81 /* Aquaware WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C90696612361F8A10022BA81 /* Aquaware WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90696752361F8A20022BA81 /* Build configuration list for PBXNativeTarget "Aquaware WatchKit Extension" */;
+			buildPhases = (
+				C906965E2361F8A10022BA81 /* Sources */,
+				C906965F2361F8A10022BA81 /* Frameworks */,
+				C90696602361F8A10022BA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aquaware WatchKit Extension";
+			productName = "Aquaware WatchKit Extension";
+			productReference = C90696622361F8A10022BA81 /* Aquaware WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90696372361F89E0022BA81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = MlukeApps;
+				TargetAttributes = {
+					C906963E2361F89E0022BA81 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					C90696522361F8A00022BA81 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					C90696612361F8A10022BA81 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = C906963A2361F89E0022BA81 /* Build configuration list for PBXProject "Aquaware" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C90696362361F89E0022BA81;
+			productRefGroup = C90696402361F89E0022BA81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C906963E2361F89E0022BA81 /* Aquaware */,
+				C90696522361F8A00022BA81 /* Aquaware WatchKit App */,
+				C90696612361F8A10022BA81 /* Aquaware WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C906963D2361F89E0022BA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C906964F2361F8A00022BA81 /* LaunchScreen.storyboard in Resources */,
+				C906964C2361F8A00022BA81 /* Assets.xcassets in Resources */,
+				C906964A2361F89E0022BA81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90696512361F8A00022BA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C906965C2361F8A10022BA81 /* Assets.xcassets in Resources */,
+				C906965A2361F8A00022BA81 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90696602361F8A10022BA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90696702361F8A20022BA81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C906963B2361F89E0022BA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90696472361F89E0022BA81 /* ViewController.swift in Sources */,
+				C90696432361F89E0022BA81 /* AppDelegate.swift in Sources */,
+				C90696452361F89E0022BA81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C906965E2361F8A10022BA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C906966C2361F8A10022BA81 /* NotificationController.swift in Sources */,
+				C906966E2361F8A10022BA81 /* ComplicationController.swift in Sources */,
+				C906966A2361F8A10022BA81 /* ExtensionDelegate.swift in Sources */,
+				C90696682361F8A10022BA81 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C90696562361F8A00022BA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C90696522361F8A00022BA81 /* Aquaware WatchKit App */;
+			targetProxy = C90696552361F8A00022BA81 /* PBXContainerItemProxy */;
+		};
+		C90696652361F8A10022BA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C90696612361F8A10022BA81 /* Aquaware WatchKit Extension */;
+			targetProxy = C90696642361F8A10022BA81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C90696482361F89E0022BA81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90696492361F89E0022BA81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C906964D2361F8A00022BA81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C906964E2361F8A00022BA81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C90696582361F8A00022BA81 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90696592361F8A00022BA81 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C90696732361F8A20022BA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C90696742361F8A20022BA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C90696762361F8A20022BA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5BBRS4WQK;
+				INFOPLIST_FILE = "Aquaware WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MlukeApps.Aquaware.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		C90696772361F8A20022BA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5BBRS4WQK;
+				INFOPLIST_FILE = "Aquaware WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MlukeApps.Aquaware.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		C906967A2361F8A20022BA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5BBRS4WQK;
+				IBSC_MODULE = Aquaware_WatchKit_Extension;
+				INFOPLIST_FILE = "Aquaware WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MlukeApps.Aquaware.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		C906967B2361F8A20022BA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5BBRS4WQK;
+				IBSC_MODULE = Aquaware_WatchKit_Extension;
+				INFOPLIST_FILE = "Aquaware WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MlukeApps.Aquaware.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		C906967E2361F8A20022BA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5BBRS4WQK;
+				INFOPLIST_FILE = Aquaware/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MlukeApps.Aquaware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C906967F2361F8A20022BA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5BBRS4WQK;
+				INFOPLIST_FILE = Aquaware/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MlukeApps.Aquaware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C906963A2361F89E0022BA81 /* Build configuration list for PBXProject "Aquaware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90696732361F8A20022BA81 /* Debug */,
+				C90696742361F8A20022BA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90696752361F8A20022BA81 /* Build configuration list for PBXNativeTarget "Aquaware WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90696762361F8A20022BA81 /* Debug */,
+				C90696772361F8A20022BA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90696792361F8A20022BA81 /* Build configuration list for PBXNativeTarget "Aquaware WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C906967A2361F8A20022BA81 /* Debug */,
+				C906967B2361F8A20022BA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C906967D2361F8A20022BA81 /* Build configuration list for PBXNativeTarget "Aquaware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C906967E2361F8A20022BA81 /* Debug */,
+				C906967F2361F8A20022BA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90696372361F89E0022BA81 /* Project object */;
+}
