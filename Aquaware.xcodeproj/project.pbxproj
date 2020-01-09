@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C900429A2367453800475EBE /* QuickAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90042992367453800475EBE /* QuickAddCell.swift */; };
 		C90696432361F89E0022BA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90696422361F89E0022BA81 /* AppDelegate.swift */; };
 		C90696452361F89E0022BA81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90696442361F89E0022BA81 /* SceneDelegate.swift */; };
 		C90696472361F89E0022BA81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90696462361F89E0022BA81 /* ViewController.swift */; };
@@ -22,6 +23,11 @@
 		C906966C2361F8A10022BA81 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906966B2361F8A10022BA81 /* NotificationController.swift */; };
 		C906966E2361F8A10022BA81 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906966D2361F8A10022BA81 /* ComplicationController.swift */; };
 		C90696702361F8A20022BA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C906966F2361F8A20022BA81 /* Assets.xcassets */; };
+		C90696812361F98A0022BA81 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C90696802361F98A0022BA81 /* MyScene.sks */; };
+		C91C5B51236A04CB00D2023D /* RecordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91C5B50236A04CB00D2023D /* RecordsTableViewController.swift */; };
+		C91C5B53236A04FD00D2023D /* RecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91C5B52236A04FD00D2023D /* RecordCell.swift */; };
+		C91F30B723634F34002F4E38 /* AddRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91F30B623634F34002F4E38 /* AddRecordViewController.swift */; };
+		C91F30B923635694002F4E38 /* PresetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91F30B823635694002F4E38 /* PresetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C90042992367453800475EBE /* QuickAddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddCell.swift; sourceTree = "<group>"; };
 		C906963F2361F89E0022BA81 /* Aquaware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquaware.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90696422361F89E0022BA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C90696442361F89E0022BA81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +94,11 @@
 		C906966F2361F8A20022BA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90696712361F8A20022BA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C90696722361F8A20022BA81 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C90696802361F98A0022BA81 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		C91C5B50236A04CB00D2023D /* RecordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsTableViewController.swift; sourceTree = "<group>"; };
+		C91C5B52236A04FD00D2023D /* RecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCell.swift; sourceTree = "<group>"; };
+		C91F30B623634F34002F4E38 /* AddRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordViewController.swift; sourceTree = "<group>"; };
+		C91F30B823635694002F4E38 /* PresetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +146,12 @@
 				C90696442361F89E0022BA81 /* SceneDelegate.swift */,
 				C90696462361F89E0022BA81 /* ViewController.swift */,
 				C90696482361F89E0022BA81 /* Main.storyboard */,
+				C91C5B50236A04CB00D2023D /* RecordsTableViewController.swift */,
+				C91C5B52236A04FD00D2023D /* RecordCell.swift */,
+				C90042992367453800475EBE /* QuickAddCell.swift */,
+				C91F30B823635694002F4E38 /* PresetViewController.swift */,
+				C91F30B623634F34002F4E38 /* AddRecordViewController.swift */,
+				C90696802361F98A0022BA81 /* MyScene.sks */,
 				C906964B2361F8A00022BA81 /* Assets.xcassets */,
 				C906964D2361F8A00022BA81 /* LaunchScreen.storyboard */,
 				C90696502361F8A00022BA81 /* Info.plist */,
@@ -269,6 +287,7 @@
 			files = (
 				C906964F2361F8A00022BA81 /* LaunchScreen.storyboard in Resources */,
 				C906964C2361F8A00022BA81 /* Assets.xcassets in Resources */,
+				C90696812361F98A0022BA81 /* MyScene.sks in Resources */,
 				C906964A2361F89E0022BA81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,8 +317,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90696472361F89E0022BA81 /* ViewController.swift in Sources */,
+				C91F30B923635694002F4E38 /* PresetViewController.swift in Sources */,
+				C91C5B53236A04FD00D2023D /* RecordCell.swift in Sources */,
 				C90696432361F89E0022BA81 /* AppDelegate.swift in Sources */,
+				C900429A2367453800475EBE /* QuickAddCell.swift in Sources */,
 				C90696452361F89E0022BA81 /* SceneDelegate.swift in Sources */,
+				C91F30B723634F34002F4E38 /* AddRecordViewController.swift in Sources */,
+				C91C5B51236A04CB00D2023D /* RecordsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
